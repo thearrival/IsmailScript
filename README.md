@@ -39,5 +39,16 @@ $ pip3 install requirements.txt
 # Usage 
 
 Run the Following command:
-
+```diff
 $ sudo python3 IsmailScript.py 
+```
+
+
+
+
+# USE AT YOUR OWN RISK AND WHAT YOU DO WITH THIS IS UP TO YOU NOT ME!
+
+
+I would greatly appreciate it if you kindly give me some feedback on this Tool 
+email:      esmail19980@gmail.com
+linkedin:   https://www.linkedin.com/in/engismail2020/
