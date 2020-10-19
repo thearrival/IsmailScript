@@ -29,7 +29,7 @@ IsmailScript Is a tool written by using python language. Assist a Pen-tester to 
 # Setup
 
 ```diff
-$ apt get update
+$ apt-get update
 $ git clone https://github.com/thearrival/IsmailScript.git
 $ cd IsmailScript
 $ chmod 777 *
