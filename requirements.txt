@@ -1,4 +1,5 @@
-bs4
-termcolor
-nmap
-requests
+bs4==0.0.1
+python-dateutil==2.8.1
+requests==2.22.0
+url-normalize==1.4.
+termcolor==1.1.0
