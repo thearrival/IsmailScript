@@ -58,7 +58,7 @@ print("                      (__/ \__)                         ")
 time.sleep(.1)
 print(colored(" By \ ", "white")) 
 print(colored("Ismail Ahmed", "red"))
-print(colored("V 1.1.0", "red"))
+print(colored("V 0.1", "red"))
 
 
 print(colored("-" * 50, "blue"))
