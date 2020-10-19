@@ -33,7 +33,8 @@ $ apt-get update
 $ git clone https://github.com/thearrival/IsmailScript.git
 $ cd IsmailScript
 $ chmod 777 *
-$ pip3 install requirements.txt
+$ pip3 install bs4
+$ pip3 install termcolor
 ```
 
 # Usage 
