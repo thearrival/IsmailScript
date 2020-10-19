@@ -4,7 +4,13 @@
 
 IsmailScript Is a tool written by using python language. Assist a Pen-tester to save a time and performing a full Reconnaissance and Information Gathering on a website.
 
-<font color="green"> Version = 1.1.0 </font>
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 
 
 # FEATURES
