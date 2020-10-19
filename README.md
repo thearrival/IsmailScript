@@ -5,11 +5,7 @@
 IsmailScript Is a tool written by using python language. Assist a Pen-tester to save a time and performing a full Reconnaissance and Information Gathering on a website.
 
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+- Version: 1.1.0
 ```
 
 
@@ -33,15 +29,15 @@ IsmailScript Is a tool written by using python language. Assist a Pen-tester to 
 # Setup
 
 ```diff
-@@ $ apt get update
-@@ $ git clone https://github.com/thearrival/IsmailScript.git
-@@ $ cd IsmailScript
-@@ $ chmod 777 *
-@@ $ pip3 install requirements.txt
+$ apt get update
+$ git clone https://github.com/thearrival/IsmailScript.git
+$ cd IsmailScript
+$ chmod 777 *
+$ pip3 install requirements.txt
 ```
 
 # Usage 
 
-" Run the Following command:
+Run the Following command:
 
 $ sudo python3 IsmailScript.py 
