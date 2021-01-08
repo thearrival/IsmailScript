@@ -94,7 +94,7 @@ print(colored("-"*50, "blue"))
 
 
 
-# start Reconnaissance!
+# start Reconnaissance !
 
 
 # DNS server information
