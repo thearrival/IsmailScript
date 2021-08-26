@@ -120,7 +120,7 @@ print(colored("-"*50, "blue"))
 print(colored("Scrapping all URLs of the website... ","yellow"))
 time.sleep(1)
 print(colored("example...","white"))
-print(colored("https://www.ismail.com","white"))
+print(colored("https://linkedin.com/","white"))
 
 html = urlopen(input("Input the URL of the Website: "))
 
