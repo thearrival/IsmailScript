@@ -1,6 +1,6 @@
 # IsmailScript
 
-![Screenshot (197)](https://user-images.githubusercontent.com/27915465/96512825-5b6e1200-1261-11eb-9ef0-f9406e99887b.png)
+![logo_200x200_auto_x2](https://user-images.githubusercontent.com/27915465/151691466-a70eb52e-229b-410c-93c0-fd0f9cb8652b.jpg)
 
 IsmailScript Is a tool written by using python programming language. Enable a penetration tester to save a time and performing a full Reconnaissance and Information Gathering on any Web Application Server.
 
