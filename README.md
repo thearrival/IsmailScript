@@ -2,7 +2,7 @@
 
 ![logo_200x200_auto_x2](https://user-images.githubusercontent.com/27915465/151691466-a70eb52e-229b-410c-93c0-fd0f9cb8652b.jpg)
 
-IsmailScript Is a tool written by using python programming language. Enable a penetration tester to save a time and performing a full Reconnaissance and Information Gathering on any Web Application Server.
+IsmailScript Is a tool written by using python language. Enable a penetration tester to save a time and performing a full Reconnaissance and Information Gathering on any Web Application Server.
 
 ```diff
 - Version:  1.1.2
@@ -19,6 +19,7 @@ IsmailScript Is a tool written by using python programming language. Enable a pe
 - DNS Zone Transfer
 - Scrapping all URLs of the website
 - Service version info (if applicable)
+
 
 # Requirements
 
@@ -37,6 +38,10 @@ $ pip3 install bs4
 $ pip3 install termcolor
 ```
 
+# What's new
+
+
+
 # Usage 
 
 Run the Following command:
@@ -53,7 +58,7 @@ I HAVE TRIED MY BEST TO MAKE THIS CODE READABLE AND UNDERSTANDABLE FOR BEGINNERS
 
 I would greatly appreciate your feedback on this Tool for further development.
 =========================================================================
-- email:      esmail19980@gmail.com
+- email:      cybersecurity_404@protonmail.ch
 - linkedin:   https://www.linkedin.com/in/engismail2020/
 
 =========================================================================
