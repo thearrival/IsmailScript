@@ -1,0 +1,326 @@
+┌──(root💀kali)-[/home/ismail/Downloads/ismailscript]
+└─# python3 IsmailScript.py        
+--------------------------------------------------
+Starting time... 
+2022-03-20 21:06:25.602564
+--------------------------------------------------
+
+
+                        _______                         
+                       / .===. \                        
+                       \/ 6 6 \/                        
+                       ( \___/ )                        
+  _________________ooo__\_____/_____________________    
+ /                                                  \   
+ |         Hey, Welcome to use IsmailScript!        |   
+ \______________________________ooo_________________/   
+                       |  |  |                          
+                       |_ | _|                          
+                       |  |  |                          
+                       |__|__|                          
+                       /-'Y'-\                          
+                      (__/ \__)                         
+ By \ 
+Ismail Ahmed
+V 0.1
+--------------------------------------------------
+Enter the target website :linkedin.com
+Website IP address :
+13.107.42.14
+--------------------------------------------------
+Banner Grabbing ... 
+b"HTTP/1.1 400 Bad Request\r\nTransfer-Encoding: chunked\r\nX-MSEdge-Ref: 0Xns3YgAAAAD8113ZpLqPTLiwqTqpE/p2TUlMMzBFREdFMTIyMQBFZGdl\r\nDate: Sun, 20 Mar 2022 19:07:09 GMT\r\n\r\nc2\r\n<h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>0Xns3YgAAAAD8113ZpLqPTLiwqTqpE/p2TUlMMzBFREdFMTIyMQBFZGdl\r\n"
+--------------------------------------------------
+Show DNS server info... 
+
+; <<>> DiG 9.16.11-Debian <<>> 13.107.42.14 ANY
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 56593
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 94fde9e4feba902155bcd85762377a7174a2f979a3d1e424 (good)
+;; QUESTION SECTION:
+;13.107.42.14.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			10800	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022032000 1800 900 604800 86400
+
+;; Query time: 643 msec
+;; SERVER: 192.168.80.2#53(192.168.80.2)
+;; WHEN: Sun Mar 20 21:06:45 CDT 2022
+;; MSG SIZE  rcvd: 144
+
+0
+--------------------------------------------------
+Dicover DNS Zone Transfer /
+** server can't find 14.42.107.13.in-addr.arpa: NXDOMAIN
+
+256
+--------------------------------------------------
+Scrapping all URLs of the website... 
+example...
+https://linkedin.com/
+Input the URL of the Website: https://linkedin.com/
+/home/ismail/Downloads/ismailscript/IsmailScript.py:127: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 127 of the file /home/ismail/Downloads/ismailscript/IsmailScript.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  beautiful = BeautifulSoup(html.read());
+#main-content
+/?trk=guest_homepage-basic_nav-header-logo
+https://www.linkedin.com/content-hub/?trk=homepage-basic_guest_nav_menu_discover
+https://www.linkedin.com/pub/dir/+/+?trk=homepage-basic_guest_nav_menu_people
+https://www.linkedin.com/learning/search?trk=homepage-basic_guest_nav_menu_learning
+https://www.linkedin.com/jobs/jobs-in-khartoum?trk=homepage-basic_guest_nav_menu_jobs
+https://www.linkedin.com/signup/cold-join?trk=guest_homepage-basic_nav-header-join
+https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin
+/uas/request-password-reset?trk=homepage-basic_signin-form_forgot-password-link
+https://www.linkedin.com/content-hub/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/science-and-environment-692594/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/marketing-and-advertising-692298/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/sales-and-retail-693146/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/technology-4341/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/finance-and-economy-689290/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/health-1891/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/business-and-management-693514/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/lifestyle-and-leisure-693602/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/society-and-culture-693706/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/arts-and-entertainment-693906/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/education-and-learning-1359/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/sports-and-fitness-3574746/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/content-hub/careers-and-employment-777/?trk=homepage-basic_explore-content_topic-pill
+https://www.linkedin.com/jobs/engineering-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/business-development-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/finance-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/administrative-assistant-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/retail-associate-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/customer-service-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/operations-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/information-technology-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/marketing-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/human-resources-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/healthcare-services-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/sales-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/program-and-project-management-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/accounting-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/arts-and-design-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/community-and-social-services-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/consulting-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/education-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/entrepreneurship-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/legal-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/media-and-communications-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/military-and-protective-services-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/product-management-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/purchasing-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/quality-assurance-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/real-estate-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/research-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/support-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/jobs/administrative-jobs?trk=homepage-basic_suggested-search
+https://www.linkedin.com/talent/post-a-job?trk=homepage-basic_talent-finder-cta
+https://www.linkedin.com/pub/dir/+/+?trk=homepage-basic_people-cta
+https://www.linkedin.com/learning/topics/training-and-education?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/it-help-desk-5?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/business-analysis-and-strategy?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/career-development-5?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/finance-and-accounting?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/leadership-and-management?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/mobile-development?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/marketing-2?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/cloud-computing-5?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/project-management?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/visualization-and-real-time?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/animation-and-illustration?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/audio-and-music?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/aec?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/graphic-design?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/motion-graphics-and-vfx?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/photography-2?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/video-2?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/data-science?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/network-and-system-administration?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/software-development?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/user-experience?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/web-design?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/database-management?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/web-development?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/product-and-manufacturing?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/sales-3?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/human-resources-3?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/devops?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/small-business-and-entrepreneurship?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/customer-service-3?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/professional-development?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/business-software-and-tools?trk=homepage-basic_learning-cta
+https://www.linkedin.com/learning/topics/security-3?trk=homepage-basic_learning-cta
+https://www.linkedin.com/signup/cold-join?trk=guest_homepage-basic_join-cta
+https://www.linkedin.com/signup/cold-join?trk=guest_homepage-basic_directory
+https://www.linkedin.com/help/linkedin?lang=en&trk=homepage-basic_directory_helpCenterUrl
+https://about.linkedin.com/?trk=homepage-basic_directory_aboutUrl
+https://press.linkedin.com/?trk=homepage-basic_directory_pressMicrositeUrl
+https://blog.linkedin.com/?trk=homepage-basic_directory_blogMicrositeUrl
+https://www.linkedin.com/company/linkedin/jobs?trk=homepage-basic_directory_careersUrl
+https://developer.linkedin.com/?trk=homepage-basic_directory_developerMicrositeUrl
+https://www.linkedin.com/learning/?trk=homepage-basic_directory_learningHomeUrl
+https://www.linkedin.com/jobs?trk=homepage-basic_directory_jobsHomeUrl
+https://www.linkedin.com/salary/?trk=homepage-basic_directory_salaryHomeUrl
+https://mobile.linkedin.com/?trk=homepage-basic_directory_mobileMicrositeUrl
+https://www.linkedin.com/services?trk=homepage-basic_directory_servicesHomeUrl
+https://www.linkedin.com/products?trk=homepage-basic_directory_productsHomeUrl
+https://business.linkedin.com/talent-solutions?src=li-footer&utm_source=linkedin&utm_medium=footer&trk=homepage-basic_directory_talentSolutionsMicrositeUrl
+https://business.linkedin.com/marketing-solutions?src=li-footer&utm_source=linkedin&utm_medium=footer&trk=homepage-basic_directory_marketingSolutionsMicrositeUrl
+https://business.linkedin.com/sales-solutions?src=li-footer&utm_source=linkedin&utm_medium=footer&trk=homepage-basic_directory_salesSolutionsMicrositeUrl
+https://learning.linkedin.com/?src=li-footer&trk=homepage-basic_directory_learningMicrositeUrl
+https://www.linkedin.com/directory/people?trk=homepage-basic_directory_peopleDirectoryUrl
+https://www.linkedin.com/directory/jobs?trk=homepage-basic_directory_jobSearchDirectoryUrl
+https://www.linkedin.com/directory/companies?trk=homepage-basic_directory_companyDirectoryUrl
+https://www.linkedin.com/directory/salaries?trk=homepage-basic_directory_salaryDirectoryUrl
+https://www.linkedin.com/directory/featured?trk=homepage-basic_directory_featuredDirectoryUrl
+https://www.linkedin.com/directory/learning?trk=homepage-basic_directory_learningDirectoryUrl
+https://www.linkedin.com/directory/posts?trk=homepage-basic_directory_postsDirectoryUrl
+https://www.linkedin.com/directory/articles?trk=homepage-basic_directory_articlesDirectoryUrl
+https://www.linkedin.com/directory/schools?trk=homepage-basic_directory_schoolsDirectoryUrl
+https://www.linkedin.com/directory/news?trk=homepage-basic_directory_newsDirectoryUrl
+https://www.linkedin.com/directory/newsletters?trk=homepage-basic_directory_newslettersDirectoryUrl
+https://www.linkedin.com/directory/services?trk=homepage-basic_directory_servicesDirectoryUrl
+https://www.linkedin.com/directory/interview-prep?trk=homepage-basic_directory_interviewPrepDirectoryUrl
+https://www.linkedin.com/directory/products?trk=homepage-basic_directory_productsDirectoryUrl
+https://www.linkedin.com/directory/content-hub?trk=homepage-basic_directory_contentHubDirectoryUrl
+https://about.linkedin.com?trk=homepage-basic_footer-about
+https://www.linkedin.com/accessibility?trk=homepage-basic_footer-accessibility
+https://www.linkedin.com/legal/user-agreement?trk=homepage-basic_footer-user-agreement
+https://www.linkedin.com/legal/privacy-policy?trk=homepage-basic_footer-privacy-policy
+https://www.linkedin.com/legal/cookie-policy?trk=homepage-basic_footer-cookie-policy
+https://www.linkedin.com/legal/copyright-policy?trk=homepage-basic_footer-copyright-policy
+https://brand.linkedin.com/policies?trk=homepage-basic_footer-brand-policy
+https://www.linkedin.com/psettings/guest-controls?trk=homepage-basic_footer-guest-controls
+https://www.linkedin.com/legal/professional-community-policies?trk=homepage-basic_footer-community-guide
+--------------------------------------------------
+Whois information...
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2022, American Registry for Internet Numbers, Ltd.
+#
+
+
+NetRange:       13.64.0.0 - 13.107.255.255
+CIDR:           13.96.0.0/13, 13.104.0.0/14, 13.64.0.0/11
+NetName:        MSFT
+NetHandle:      NET-13-64-0-0-1
+Parent:         NET13 (NET-13-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:       
+Organization:   Microsoft Corporation (MSFT)
+RegDate:        2015-03-26
+Updated:        2021-12-14
+Ref:            https://rdap.arin.net/registry/ip/13.64.0.0
+
+
+
+OrgName:        Microsoft Corporation
+OrgId:          MSFT
+Address:        One Microsoft Way
+City:           Redmond
+StateProv:      WA
+PostalCode:     98052
+Country:        US
+RegDate:        1998-07-10
+Updated:        2021-10-13
+Comment:        To report suspected security issues specific to traffic emanating from Microsoft online services, including the distribution of malicious content or other illicit or illegal material through a Microsoft online service, please submit reports to:
+Comment:        * https://cert.microsoft.com.  
+Comment:        
+Comment:        For SPAM and other abuse issues, such as Microsoft Accounts, please contact:
+Comment:        * abuse@microsoft.com.  
+Comment:        
+Comment:        To report security vulnerabilities in Microsoft products and services, please contact:
+Comment:        * secure@microsoft.com.  
+Comment:        
+Comment:        For legal and law enforcement-related requests, please contact:
+Comment:        * msndcc@microsoft.com
+Comment:        
+Comment:        For routing, peering or DNS issues, please 
+Comment:        contact:
+Comment:        * IOC@microsoft.com
+Ref:            https://rdap.arin.net/registry/entity/MSFT
+
+
+OrgAbuseHandle: MAC74-ARIN
+OrgAbuseName:   Microsoft Abuse Contact
+OrgAbusePhone:  +1-425-882-8080 
+OrgAbuseEmail:  abuse@microsoft.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/MAC74-ARIN
+
+OrgDNSHandle: YSRH-ARIN
+OrgDNSName:   Yalamati, Sree Raghu Harsha 
+OrgDNSPhone:  +917702220771 
+OrgDNSEmail:  v-raghuy@microsoft.com
+OrgDNSRef:    https://rdap.arin.net/registry/entity/YSRH-ARIN
+
+OrgTechHandle: MRPD-ARIN
+OrgTechName:   Microsoft Routing, Peering, and DNS
+OrgTechPhone:  +1-425-882-8080 
+OrgTechEmail:  IOC@microsoft.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/MRPD-ARIN
+
+OrgTechHandle: IPHOS5-ARIN
+OrgTechName:   IPHostmaster, IPHostmaster 
+OrgTechPhone:  +1-425-538-6637 
+OrgTechEmail:  iphostmaster@microsoft.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/IPHOS5-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2022, American Registry for Internet Numbers, Ltd.
+#
+
+0
+--------------------------------------------------
+ Scan Website Network Ports and Services... 
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-03-20 21:07 CDT
+Stats: 0:01:29 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 65.90% done; ETC: 21:09 (0:00:43 remaining)
+Nmap scan report for 13.107.42.14
+Host is up (0.0098s latency).
+Not shown: 1427 filtered ports
+PORT    STATE  SERVICE    VERSION
+53/tcp  closed domain
+80/tcp  open   tcpwrapped
+|_http-title: Site doesn't have a title.
+443/tcp open   tcpwrapped
+|_http-title: Site doesn't have a title.
+| ssl-cert: Subject: commonName=www.linkedin.com/organizationName=LinkedIn Corporation/stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:www.linkedin.com, DNS:linkedin.com, DNS:rum5.perf.linkedin.com, DNS:exp4.www.linkedin.com, DNS:exp3.www.linkedin.com, DNS:exp2.www.linkedin.com, DNS:exp1.www.linkedin.com, DNS:rum2.perf.linkedin.com, DNS:rum4.perf.linkedin.com, DNS:rum6.perf.linkedin.com, DNS:rum17.perf.linkedin.com, DNS:rum8.perf.linkedin.com, DNS:rum9.perf.linkedin.com, DNS:afd.perf.linkedin.com, DNS:rum14.perf.linkedin.com, DNS:rum18.perf.linkedin.com, DNS:rum19.perf.linkedin.com, DNS:exp5.www.linkedin.com, DNS:realtime.www.linkedin.com, DNS:px.ads.linkedin.com, DNS:px4.ads.linkedin.com, DNS:dc.ads.linkedin.com, DNS:lnkd.in, DNS:px.jobs.linkedin.com
+| Not valid before: 2022-03-01T00:00:00
+|_Not valid after:  2022-09-01T23:59:59
+Device type: general purpose
+Running: Microsoft Windows XP
+OS CPE: cpe:/o:microsoft:windows_xp::sp3
+OS details: Microsoft Windows XP SP3
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.12 ms 192.168.80.2
+2   0.19 ms 13.107.42.14
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 147.23 seconds
+0
+--------------------------------------------------
+                                                          
